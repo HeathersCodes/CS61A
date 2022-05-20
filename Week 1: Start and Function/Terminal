@@ -5,6 +5,7 @@ ls cd mkdir mv unzip
 python3 file.py
 python3 -i file.py
 python3 -m doctest file.py 
+python3 -m doctest -v file.py 
 
 " home directory: ~ "
 " exit() Ctrl-D "
