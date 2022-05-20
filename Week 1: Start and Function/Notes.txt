@@ -40,7 +40,18 @@ Environment Diagrams:
 Defining Function
 bind names to expression
 
+'''
 
+'''
+print(print(1),print(2))
+1
+2
+None None
 
+None means nothing in Python
+None is not display by interpreter as the value of the expression
+Pure func
+Non-pure func
+'''
 '''
 
