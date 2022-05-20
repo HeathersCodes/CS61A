@@ -1,3 +1,28 @@
+#####################Summary##############
+Division /, Floor Div //, modulo %,
+Evaluate the operator, and then the operands (from left to right).
+Apply the operator to the operands (the values of the operands).
+print and return (and return ends the func
+
+not has the highest priority
+and
+or has the lowest priority
+
+if you run into error messages, try to identify the problem before asking for help. 
+
+SyntaxError	Contained improper syntax 
+(e.g. missing a colon after an if statement or forgetting to close parentheses/quotes)
+IndentationError	Contained improper indentation 
+(e.g. inconsistent indentation of a function body)
+TypeError	Attempted operation on incompatible types 
+(e.g. trying to add a function and a number) or called function with the wrong number of arguments
+ZeroDivisionError	
+Attempted division by zero
+
+
+
+
+
 '''
 Global frame
 Local frame
@@ -36,18 +61,7 @@ def fib(n):
  return curr
 '''
 Iteration
-Designing Function
-Characteristics Function
-Domain: set of all inputs
-i.e. x
-Range: set of output values it might possibly return
-i.e. return a non-negative real number 
-Pure func's behavior: relationship it creates between input and output
-i.e. return value is the nth fib number
 
-Give one function one job
-DRY
-define func generally
 '''
 
 '''
