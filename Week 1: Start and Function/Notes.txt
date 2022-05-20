@@ -1,0 +1,37 @@
+
+
+
+
+
+
+#################NOTES###############
+'''
+prompt >>> 2021
+
+Expression (evaluzted in the context of environment
+Call exp: 1. operator then operand subexpressions 2. apply func (val of operator subexp) to argu
+mul(add(1, 2), 2)
+'''
+
+'''
+assignment, name, user-defined func (initial)
+
+Assignment is a simple mean of abstraction: bind names to values
+max is initialize as built-in func 1st, if max = 7, it was assigned as 7
+primitive 
+call
+'''
+
+'''
+Environment Diagrams: 
+  a sequances of frames; 
+  name eval to val bound to the name in the earliest frame
+  
+
+Defining Function
+bind names to expression
+
+
+
+'''
+
