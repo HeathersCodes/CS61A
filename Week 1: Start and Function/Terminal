@@ -1,0 +1,26 @@
+https://inst.eecs.berkeley.edu/~cs61a/fa21/lab/lab00/
+
+~
+ls cd mkdir mv unzip
+python3 file.py
+python3 -i file.py
+python3 -m doctest file.py 
+
+" home directory: ~ "
+" exit() Ctrl-D "
+" ls: list all folders and files "
+" cd .. : go up one directory "
+" cd or cd ~ : change to home directory "
+" cd ~/Desktop "
+" mkdir cs61a "
+" cd cs61a "
+" mkdir lab mkdir projects "
+" cd ~/Downloads "
+" unzip lab00.zip "
+" mv ~/Downloads/lab00 ~/Desktop/cs61a/lab "
+" cd ~/Desktop/cs61a/lab/lab00 "
+#" python3 ok -q python-basics -u "
+" python3 lab00.py "
+" python3 -i lab00.py "
+" python3 -m doctest lab00.py " if true, return nothing
+
