@@ -1,0 +1,14 @@
+'''
+Designing Function
+Characteristics Function
+Domain: set of all inputs
+i.e. x
+Range: set of output values it might possibly return
+i.e. return a non-negative real number 
+Pure func's behavior: relationship it creates between input and output
+i.e. return value is the nth fib number
+
+Give one function one job
+DRY
+define func generally
+'''
