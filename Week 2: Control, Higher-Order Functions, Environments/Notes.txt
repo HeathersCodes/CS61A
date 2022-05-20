@@ -1,0 +1,66 @@
+'''
+Global frame
+Local frame
+Multiple Environments in 0ne diagram
+Again: every expr is eval in the context of an envir
+A name eva to the value bound to that name in the earlist frame of the current envir 
+in which that name is found
+intended
+'''
+from operator import mul
+def square(square):
+  return mul(square, square)
+  print(1)
+square(4)
+
+'''
+A statement is executed by the interpreter to perform an action
+suite: a sequence of statements
+clauses: true and execute the whole suite, otherwise not excute
+boolean context
+'''
+i, total =0, 0
+while i < 3:
+  i += 1
+  total += 1
+>>> i = 1
+>>> total
+3
+
+def fib(n):
+  pred, curr = 0, 1
+  k = 1
+  whie k < n:
+    pred, curr = curr, pred + curr
+    k += 1
+ return curr
+'''
+Iteration
+Designing Function
+Characteristics Function
+Domain: set of all inputs
+i.e. x
+Range: set of output values it might possibly return
+i.e. return a non-negative real number 
+Pure func's behavior: relationship it creates between input and output
+i.e. return value is the nth fib number
+
+Give one function one job
+DRY
+define func generally
+'''
+
+'''
+Higher-Order Function: takes a func as an argument value or returns a func as a return value 
+assert 2 > 3, 'False'
+Lambda expr: single expr (parent frame,  do not give function an name
+Control expr, conditional expr
+x = 0
+1/x if x != 0 else 0
+'''
+def make_adder(n):
+  def adder(k):
+    return k + n
+  return adder
+s = lambda x: x * x
+s(4)
