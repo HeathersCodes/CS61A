@@ -35,6 +35,7 @@ def product(n, term):
     i, result = 1, 1
     while i <= n:
         result *= term(i)
+        i += 1
     return result
 
 def square(x):
