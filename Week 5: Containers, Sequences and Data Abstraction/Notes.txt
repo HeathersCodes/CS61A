@@ -1,1 +1,27 @@
+Data Abstraction: by which func enforce an abstraction barrier between representation and use
+Compound obj combine obj together
 
+An abstract data type lets us manipulate compound obj as units
+2 parts of any program that uses data:
+How data are represented
+How data are manipulated
+
+fraction and rational number
+Constructor
+selector
+
+#Constructor and selector func work together to specify the right behavior
+#behavior: numer(x) / demon(x) == n /d
+Constructor and selector definee behavior
+recognize da by its behavior not neccesarily how to construct
+
+
+Box and Pointer notation
+a method for combining data values satisfies the closure property if
+the result of combination can itself be combined using the same method
+hierarchical structure
+
+list are represented as a row of index-label adjcent boxes, one per element
+each box either contains a primitive value or points to a compound value
+
+Dictionary
