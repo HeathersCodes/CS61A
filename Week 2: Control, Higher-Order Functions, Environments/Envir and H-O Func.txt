@@ -1,0 +1,11 @@
+1. every user-defined func has a parent frame
+2. the parent of a func is the frame in which it was defined
+3. every local frame has a parent
+4. the parent of a fram is the parent of the func called
+
+bind name to the func val (usually obj) in the current frame
+
+1. Add a local frame, titled with the name if the func being called
+2. Copy the parent of the func to the local frame
+3. bind the parameter to the argu in the local frame
+4. execute the body of the func in the environment
