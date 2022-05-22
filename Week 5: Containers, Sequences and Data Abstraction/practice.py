@@ -36,3 +36,18 @@ odds = [1, 3, 5, 7, 9]
 # string
 's\ns'
 # in and not in operators match substrings
+
+#slicing
+# process cantainer values
+# some built-in func take iterable argument and aggregate them into a value
+sum([2,3],4)
+sum([[2,3],[5],[]])
+max(range(3), key=lambda x: (x-1)**2)
+all([1,2])
+
+#what is the thing i wanna do
+#base case: 2 possible
+#one element or blank
+#keep simplfy the problem untill u get to the base case
+
+
