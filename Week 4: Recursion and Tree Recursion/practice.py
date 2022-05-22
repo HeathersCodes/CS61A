@@ -34,6 +34,9 @@ def luhn_sum_double(n):
         return luhn_sum(all_but_last) + luhn_digit
       
 # Converting iteration to recursion
+# What state need to maintained by the iterative func 
+# and u just pass as argu as recursion
+# update via assignment become argument to a recursive call
 def sum_digits_iter(n):
     """Sum digits iteratively.
 
