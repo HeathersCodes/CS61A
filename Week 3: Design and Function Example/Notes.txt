@@ -1,4 +1,4 @@
-'''
+
 Designing Function
 Characteristics Function
 Domain: set of all inputs
@@ -11,4 +11,23 @@ i.e. return value is the nth fib number
 Give one function one job
 DRY
 define func generally
-'''
+
+Function Abstraction
+given a name to some process, no worry about detail
+
+Name
+Name should convey meaning or purpose
+the type is best document in a func's docstring
+func name typically tell the affect
+
+Which values deserve a name:
+Repeated compound expression
+Meaningful parts of complex expr
+
+Name can be long as help docu your code
+xyz real number
+
+lf missing ), next line would be wrong (nearby error
+traceback tell you happening in your program when the error
+TypeError: have some logic flow
+
