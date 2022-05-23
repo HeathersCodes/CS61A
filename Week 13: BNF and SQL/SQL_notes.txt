@@ -1,0 +1,17 @@
+Dadabase Management Systems
+table a collection of recoreds, which are rows that have a value for each column
+table has col and rows, col has name and a type
+declarative languages: description of the desired result, interpreter figures out how to generate the result
+imperative language: computational process, interpreter carries out eval rules
+
+i.e. use multiple rows with uniom, take a description of another onw row table and put together
+;
+
+create table cities as
+  select 38 as latitude, 122 as longitude, "Berkeley" as name union
+  select 42,             71,               "Cambridge"        union
+  select 45,             93,               "Minneapolis";
+  
+select 'west coast' as region, name from cities where longitude >= 115 union
+select 'other',                name from cities where longitude <  115; 
+
