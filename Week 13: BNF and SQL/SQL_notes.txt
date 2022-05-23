@@ -4,7 +4,7 @@ table has col and rows, col has name and a type
 declarative languages: description of the desired result, interpreter figures out how to generate the result
 imperative language: computational process, interpreter carries out eval rules
 
-i.e. use multiple rows with uniom, take a description of another onw row table and put together
+i.e. use multiple rows with union, take a description of another onw row table and put together
 ;
 
 create table cities as
@@ -15,3 +15,18 @@ create table cities as
 select 'west coast' as region, name from cities where longitude >= 115 union
 select 'other',                name from cities where longitude <  115; 
 
+A select statement creates a new table, 
+#####scratch or projecting a table#####
+create table give a global name to table
+
+select literals creates a one-row table
+the union of 2 select statement is a table containing the rows of both of their results
+union: no need same name 4 col
+
+the result of a select statement displayed not stored
+if stored, use create table: see practice.sql
+interactive language
+
+####clause, i.e. from where order by 
+
+#
