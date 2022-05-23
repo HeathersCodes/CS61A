@@ -40,3 +40,4 @@ select kind, max(legs)-min(legs) from animals group by weight order by -diff lim
 select some columns from different tables to get a new table.
 merge: left if right does not have the rows that left has, will be auto created
 inner: get rows 2 table both have
+*/
