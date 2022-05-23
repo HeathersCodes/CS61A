@@ -38,5 +38,5 @@ select kind, max(legs)-min(legs) from animals group by weight order by -diff lim
 
 /* join: mean 2 table get together. still, some condiction,
    left join means display the info that left table has under the condition 
-   although right table does has the info. 
-   join of defalt mean inner join, follow the condition completely */
+   although right table does not has the info. 
+   join of default mean inner join, follow the condition and delete the rows that two table have blank or not match*/
