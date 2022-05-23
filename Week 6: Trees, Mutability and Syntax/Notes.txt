@@ -1,0 +1,10 @@
+A tree has a label and a list of branches that is a tree too.
+A tree only with label is a leaf
+
+Each location in a tree is called a node (constructed a tree recursively
+Each node has a label that can be any value
+One node can be parent
+
+the label of tree is selector
+make sure while tree constructor, i do not built sth thst is not a tree
+to make sure if I pass in other kind of sequance, it get convert to list 
