@@ -3,8 +3,8 @@ Compound obj combine obj together
 
 An abstract data type lets us manipulate compound obj as units
 2 parts of any program that uses data:
-How data are represented
-How data are manipulated
+How data are represented as parts
+How data are manipulated as units
 
 fraction and rational number
 Constructor
