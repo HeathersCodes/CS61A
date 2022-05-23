@@ -35,3 +35,8 @@ select max(legs)-min(legs) as diff from animals group by weight order by -diff l
 
 select kind, max(legs)-min(legs) from animals group by weight order by -diff limit 6;
 /* Notes: 4 rows, so display 4 rows */
+
+/* join: mean 2 table get together. still, some condiction,
+   left join means display the info that left table has under the condition 
+   although right table does has the info. 
+   join of defalt mean inner join, follow the condition completely */
