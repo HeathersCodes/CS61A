@@ -6,16 +6,21 @@ odds[2]
 odds[odds[1]-odds[2]]
 
 num = {'I': 1, 'V': 5, 'X': 10} #sequence
-num.values() #
+num.values() # function call
 list(num) #keys
-list(num.values())
+list(num.values()) 
 sum(num.values())
 len(num)
 {'I': 1, 'I': 5, 10.0: [1,2], 4: [1,2]}
 #collection of key-value pair
 #A key of dic cannot be a list or dic (or any mutable type) #tied to imprementation
 #2 keys cannot not be equal; can be at most one val for a given key
+dict([(3, 9), (4, 16), (5, 25)])
+num.get('X', 0)
+num.get('X-ray', 0)
 {x: y for x, y in [[1,2],[2,3]]}
+{[1]: 2} #error
+{1: [2]}
 
 def index(keys, values, match):
     return {k: [v for v in values if match(k,v)] for k in keys}
