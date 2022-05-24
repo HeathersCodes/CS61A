@@ -115,9 +115,9 @@ def change_short(x, y, limit):
     >>> change_short(x, y, 100)  # No error, even though abs(y - x) / x divides by 0!
     100
     """
-    return limit if x == 0 else limited(x, abs(y - x) / x, limit)
-
-
+    return limited(x, 1 / x, limit) if x != 0 else limit #also right
+    limit if x == 0 else limited(x, 1 / x, limit) 
+    
 def invert_and_change_syntax_check():
     """Checks that definitions of invert_short and change_short are just return statements.
 
