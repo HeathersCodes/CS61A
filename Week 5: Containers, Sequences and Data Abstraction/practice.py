@@ -7,7 +7,7 @@ odds[odds[1]-odds[2]]
 
 num = {'I': 1, 'V': 5, 'X': 10} #sequence
 num.values() #
-list(num)
+list(num) #keys
 list(num.values())
 sum(num.values())
 len(num)
