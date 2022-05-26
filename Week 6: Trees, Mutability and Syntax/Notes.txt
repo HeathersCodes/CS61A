@@ -1,5 +1,19 @@
 #####draw a tree first
 
+>>> d = [4]
+>>> c = d
+>>> str(d)
+'[4]'
+>>> d
+[4]
+>>> c
+[4]
+>>> d.append(9) #obj itself has changed
+>>> d
+[4, 9]
+>>> c
+[4, 9]
+
 A tree has a label and a list of branches that is a tree too.
 A tree only with label is a leaf
 
