@@ -1,3 +1,5 @@
+#####draw a tree first
+
 A tree has a label and a list of branches that is a tree too.
 A tree only with label is a leaf
 
