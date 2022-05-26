@@ -1,1 +1,20 @@
+s = [3,4,5] #container provide iterator that offers access to its ele in order.
+t = iter(s)
+next(t) #return 3
 
+After py 3.6, dic i
+if dic change the size, I cannot use any of the iterators I've constructed
+>>> d = {'one': 1, 'two': 2, 'three': 3} # Keys and values
+>>> k = iter(d) # next(k)
+>>> v = iter(d.values()) # next(v)
+>>> k = iter(d)
+>>> d.pop('two')
+
+    >>> r = range(3, 6)
+    >>> s = iter(r)
+    >>> next(s)
+    3
+    >>> for x in s:
+    ...     print(x)
+    4
+    5
