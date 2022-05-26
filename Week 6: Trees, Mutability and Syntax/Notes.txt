@@ -8,3 +8,53 @@ One node can be parent
 the label of tree is selector
 make sure while tree constructor, i do not built sth thst is not a tree
 to make sure if I pass in other kind of sequance, it get convert to list 
+
+obj: value what should be repr
+attribute (or bounfd to the function
+behavior
+
+s = 'Hello'
+s.upper()
+s.lower()
+s.swapcase()
+ord('A')
+
+suits = ['coin', 'string', 'myriad']  # A list literal
+original_suits = suits
+suits.pop()             # Removes and returns the final element
+suits.remove('string')  # Removes the first element that equals the argument
+suits.append('cup')              # Add an element to the end
+suits.extend(['sword', 'club'])  # Add all elements of a list to the end
+suits[2] = 'spade'  # Replace an element
+suits
+suits[0:2] = []  # Replace a slice
+[suit.upper() for suit in suits]
+
+is ==
+eval to the same obj and eval to the same value
+a = [10]
+b = [10]
+a is b #return false
+Mutable Default Arguments are Dangerous
+a defult argument value is part of a function value, not generate by a call
+i.e.
+def f(s=[]):
+  s.append(5)
+  return len(s)
+f() #return 1
+f() #return 2 
+
+
+obj changing state. the same obj can change in value throughout the course of computation
+All name that refer to the same obj are affected by amutaion
+Only obj of mutable types can change: list and dic
+numerals = {'I': 1, 'V': 5, 'X': 10}
+numerals.pop('X') #remove 'X" key
+numerals.get('X') #nothing
+
+>>> 2, #return (2,)
+>>> (3, 4) + (5) 
+(3, 4, 5)
+the value of an expr can change because of changes in names or obj
+BUT an immutable sequence may still change if it cantains a mutable value as an element
+
