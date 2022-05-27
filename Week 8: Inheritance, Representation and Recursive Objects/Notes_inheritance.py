@@ -35,7 +35,7 @@ class Account:
         return self.balance
 
 
-class CheckingAccount(Account):
+class CheckingAccount(Account): #Base class attributes are not copied into subclasses
     """A bank account that charges for withdrawals.
 
     >>> ch = CheckingAccount('Jack')
@@ -48,8 +48,12 @@ class CheckingAccount(Account):
 
     withdraw_fee = 1
     interest = 0.01
-
     def withdraw(self, amount):
         return Account.withdraw(self, amount + self.withdraw_fee)
         # Alternatively:
         return super().withdraw(amount + self.withdraw_fee)
+checking = CheckingAccount('Sam') #calls Account.__init__
+checking.deposit(10)
+checking.withdraw(5)
+checking.interest #Found in CHeckingAccount
+#0.01
