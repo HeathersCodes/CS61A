@@ -1,0 +1,30 @@
+Func: obj
+Bound methouds: obj, a func that has its 1st parameter selfalready bound to an instance
+Dot expr eval to bound methods for class attributes that are func
+from left to right
+>>> type(Account.deposit)
+<class 'function'>
+>>> type(spock_account.deposit)
+<class 'method'>
+
+However, a single assignment statement to a class attribute changes 
+the value of the attribute for all instances of the class.
+>>> Account.interest = 0.04 #Account is class name
+>>> spock_account.interest
+0.04
+>>> kirk_account.interest
+0.04
+
+>>> kirk_account.interest = 0.08
+and that attribute value will be returned from a dot expression.
+>>> kirk_account.interest
+0.08
+However, the class attribute interest still retains its original value, which is returned for all other accounts.
+>>> spock_account.interest
+0.04
+
+>>> Account.interest = 0.05  # changing the class attribute
+>>> spock_account.interest     # changes instances without like-named instance attributes
+0.05
+>>> kirk_account.interest     # but the existing instance attribute is unaffected
+0.08
