@@ -1,5 +1,7 @@
 #Do not repeat yourself; use existing implementation
 #Attributes that have neen overridden are still accessible via class obj
+#in the subclass same name given as it exists in base class 
+#Even checkingAccount call withdraw in the true class, we can still access and use original class obj
 class Account:
     """An account has a balance and a holder.
 
@@ -52,7 +54,7 @@ class CheckingAccount(Account):
     interest = 0.01
 
     def withdraw(self, amount):
-        return Account.withdraw(self, amount + self.withdraw_fee)
+        return Account.withdraw(self, amount + self.withdraw_fee) 
         # Alternatively:
         return super().withdraw(amount + self.withdraw_fee)
 
