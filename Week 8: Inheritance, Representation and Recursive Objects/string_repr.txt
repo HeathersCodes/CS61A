@@ -1,0 +1,32 @@
+A object value should behave like the knid of data it is mean to represent 
+2 string repr
+str (legible to human
+repr (legible to Python Interpreter (returns a python expr that eval to an equal obj
+the result of calling repr on a value is what Python prints in an session
+some obj do not have a simple Python-readable string
+>>> repr(min)
+'<built-in function min>'
+
+>>> from datetime import date
+>>> tues = date(2011, 9, 12)
+>>> repr(tues)
+'datetime.date(2011, 9, 12)'
+>>> str(tues)
+'2011-09-12'
+>>> print(tues)
+2011-09-12
+
+s = 'hello world'
+str(s)
+repr(s)
+"'hello world'"
+eval(repr(s)) #'hello world'
+>>> repr(repr(s))
+'"\'hello world\'"'
+Python uses backslashes in order to indicate what quote ends a string and what do not
+# Errors: eval('hello world')
+
+Using string interpolation
+the result of evaluating an f-string literal contains the str string of the 
+value of each wub-expr 
+sub expr eval in current frame
